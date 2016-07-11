@@ -1,0 +1,33 @@
+# IDE and OS
+.idea
+.mc
+.settings
+.subversion
+.buildpath
+.classpath
+.cproject
+.loadpath
+.metadata
+.pmt
+.project
+$RECYCLE.BIN
+.DS_Store
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+node_modules
+npm-debug.log
+
+# Project
+build/iconfont
+build/css/style.css
+build/js/script.js
+.idea/workspace.xml
+
+.idea/workspace.xml
+
+.idea/workspace.xml
+
+.idea/workspace.xml
+
+.idea/workspace.xml

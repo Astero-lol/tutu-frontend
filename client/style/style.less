@@ -1,0 +1,34 @@
+﻿/*** --- Reset CSS --- ***/
+@import 'reset.less';
+
+
+/*** --- Mixins and variables --- ***/
+@import 'common/variables.less';
+@import 'common/easings.less';
+@import 'common/mixins.less';
+
+
+/*** --- Document --- ***/
+html,
+body {
+	height: 100%;
+	color: #000;
+	font: normal @font-size/@line-height @font-family;
+	-webkit-text-size-adjust: 100%;
+	.smooth-font;
+}
+
+
+/*** --- Links --- ***/
+a {
+	color: @link-color;
+	text-decoration: none;
+}
+
+
+/*** --- Blocks --- ***/
+@import 'blocks/page';
+@import "blocks/table";
+@import "blocks/form";
+@import "blocks/selected-user";
+@import "blocks/preload";
