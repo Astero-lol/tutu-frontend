@@ -15,7 +15,7 @@ export default class UserList extends Component {
 			selectedUser: false,
 			preload: false
 		};
-		// this.loadData('http://www.filltext.com/?rows=400&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&adress={addressObject}&description={lorem|32}')
+		this.loadData('http://www.filltext.com/?rows=400&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&adress={addressObject}&description={lorem|32}')
 	}
 	
 	loadData(url) {
