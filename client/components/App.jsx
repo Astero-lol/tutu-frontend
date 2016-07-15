@@ -9,7 +9,7 @@ export default class App extends Component{
 
 		function dscount(string, target) {
 			var result = string.match(target);
-			console.log(result.length);
+			// console.log(result.length);
 		}
 
 		var reg = /s1|s2?=s1|s2{1,}/ig;
